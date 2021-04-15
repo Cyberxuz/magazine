@@ -78,7 +78,7 @@
         android:textSize="30dp"></TextView>
 
     <Button
-
+        android:id="@+id/buttonnex"
         android:background="@drawable/buttonbackground"
         android:layout_marginTop="40dp"
         android:text="Log in"
@@ -90,6 +90,7 @@
         android:layout_height="wrap_content"
         ></Button>
     <Button
+        android:id="@+id/buttonpustoy"
         android:background="@drawable/buttonbackground2"
         android:layout_marginTop="20dp"
         android:text="Register"
