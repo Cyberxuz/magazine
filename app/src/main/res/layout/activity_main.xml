@@ -21,13 +21,27 @@
         app:lottie_loop="true">
     </com.airbnb.lottie.LottieAnimationView>
 
+
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView2"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="100dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         app:lottie_rawRes="@raw/json2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView3"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        app:lottie_rawRes="@raw/qwe2"
+
         app:lottie_autoPlay="true"
         app:lottie_loop="true">
     </com.airbnb.lottie.LottieAnimationView>
