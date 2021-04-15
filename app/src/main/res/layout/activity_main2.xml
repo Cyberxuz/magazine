@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="9dp"
     tools:context=".MainActivity2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:fontFamily="@font/raleway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGO"
+        android:textColor="@color/red"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="83dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        ></TextView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextbackground"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:hint=""
+        ></EditText>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        ></TextView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextbackground"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        ></EditText>
+
+    <TextView
+        android:fontFamily="@font/raleway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forget password"
+        android:textColor="@color/black"
+        android:textSize="30dp"></TextView>
+
+    <Button
+        android:background="@drawable/buttonbackground"
+        android:layout_marginTop="20dp"
+        android:text="Log in"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        ></Button>
+    <Button
+        android:background="@drawable/edittextbackground"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textSize="20dp"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/red"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+</LinearLayout>
