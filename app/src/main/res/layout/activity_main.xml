@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="100dp"
-        android:layout_marginTop="251dp"
+        android:layout_marginTop="150dp"
         app:lottie_rawRes="@raw/json2"
         app:lottie_autoPlay="true"
         app:lottie_loop="true">
